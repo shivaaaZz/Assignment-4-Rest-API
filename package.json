@@ -1,0 +1,14 @@
+{
+  "name": "assignment-4--current-weather---shiva-agah",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lite-server --baseDir=\"Public\""
+  },
+  "author": "Shiva Agah",
+  "license": "private",
+  "private": true,
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

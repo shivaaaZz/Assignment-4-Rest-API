@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <!-- Social icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Titel -->
+    <title>Assignment 4 - Current Weather</title>
+</head>
+<body>
+    <header>
+        <!-- logo -->
+        <di id="logoTitle">
+            <figure id="logo"></figure>
+            <p id="Title">The weather <br/> Network</p>
+        </di>
+
+        <!-- Nav -->
+        <ul id="nav">
+            <li class="pages">Home</li>
+            <li class="pages">Forecast and Reports</li>
+            <li class="pages">Maps</li>
+            <li class="pages">News</li>
+        </ul>
+
+    </header>
+    <!-- Main -->
+    <main>
+        <!--weatherInfos  -->
+        <secton id="weatherSetion">
+             <!-- drop down menu -->
+            <label id="menuTitle" for="city">Choose a city:</label>
+
+            <select name="city" id="city">
+                <option value="Tehran">Tehran</option>
+                <option value="California">California</option>
+                <option value="Berlin">Berlin</option>
+                <option value="Toronto">Toronoto</option>
+        </select>
+
+            <button id="resultBtn">Show Results</button>
+
+        <!-- Informaion -->
+            <ul id="InfoSection">
+                <!-- Location -->
+                <li>
+                    <p class="inputStyle">Location</p>
+                    <div id="Location" class="outputStyle"></div>
+                </li>
+
+                <!-- Weather conditon -->
+                <li>
+                    <p class="inputStyle">Condition</p>
+                    <div id="weatherCondition" class="outputStyle"></div>
+                </li>
+
+                <li>
+                    <!-- temperature -->
+                    <p class="inputStyle">Temperature</p>
+                    <div id="Temperature"  class="outputStyle"></div>
+                </li>
+
+                <!-- feels like -->
+                <li>
+                    <p class="inputStyle">Feels like</p>
+                    <div id="FeelsLike"  class="outputStyle"></div>
+                </li>
+
+                <!-- humidity -->
+                <li>
+                    <p class="inputStyle">Humidity</p>
+                    <div id="Humidity"  class="outputStyle"></div>
+                </li>
+
+                <!-- Local Tima -->
+                <li>
+                    <p class="inputStyle">Local Time</p>
+                    <div id="localTime"  class="outputStyle"></div> 
+                </li>
+            </ul>
+       
+    </main>
+
+    <!-- Footer-->
+    <footer>
+        <!-- Footer Left-->
+        <div class="footerLeft">
+            <span class="copyright">&copy; 2024 Shiva Agah</span>
+        </div>
+
+        <!-- Footer Middle -->
+        <div id="footerMiddle">
+            <p id="footerMiddleTitle">Social</p>
+            <ul id="socialMedia">
+                <li id="facebook"></li>
+                <li id="Linkdeen"></li>
+                <li id="instagram"></li>
+                <li id="Email"></li>
+            </ul>
+        </div>
+
+        <!-- Footer Right-->
+        <div id="footerRight">
+            <form >
+                <fieldset id="fieldsetOne">
+                    <input type="text" placeholder="Your name" class="formStyle"/>
+                    <input type="text" placeholder="E-mail" class="formStyle"/>
+                </fieldset>
+
+                <fieldset id="fieldsetTwo">
+                    <textarea placeholder="Leave your message|" id="messageStyle"></textarea>
+                    <input type="button" value="SEND" id="buttonStyle"/>
+                </fieldset>
+            </form>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

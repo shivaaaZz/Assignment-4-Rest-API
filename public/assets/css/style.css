@@ -1,0 +1,321 @@
+body{
+    background-image: url(../images/clouds\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Header */
+header{
+    width: 100vw;
+    height: 90px;
+    background-color: #3C5777;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoTitle{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#logo{
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/the-weather-network-logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#Title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    margin-left: 20px;
+}
+
+#nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pages{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    color: white;
+
+    margin-right: 20px;
+}
+
+
+/* Main */
+
+#weatherSetion{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 25px;
+}
+
+#menuTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgb(52, 52, 52);
+    padding: 15px;
+}
+
+#city{
+    width: 45%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 16px;
+    opacity: 0.24;
+    background: var(--24-gray-soft, #C2C2C2);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 10px; 
+    padding: 10px;
+
+}
+
+#resultBtn{
+    width: 300px;
+    height: 40px;
+    background-color: #4c4c4c;
+    color: var(--White, #FFF);
+    text-align: center;
+    text-shadow: 0px 4px 8px rgba(38, 50, 56, 0.08), 0px 2px 4px rgba(38, 50, 56, 0.16);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.25px;
+    border-radius: 16px;
+}
+
+/* Informations */
+#InfoSection{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding:  20px;
+    background: var(--24-gray-soft, #c2c2c267);
+}
+.inputStyle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(52, 52, 52);
+    padding: 20px;
+    text-align: center;
+}
+
+.outputStyle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    color: rgb(255, 255, 0);
+    text-align: center;
+}
+
+#weatherCondition img {
+    background-position: cover;
+    width: 70px;
+    height: 70px;
+}
+
+
+/* Footer */
+footer{
+    width: 100vw;
+    height: 180px;
+    background-color: #3C5777;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footerLeft{
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 10px;
+}   
+
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    margin-left: 20px;
+}
+
+#footerMiddle{
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footerMiddleTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+#facebook{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    background-size: contain;
+    background-image: url(../images/Facebook\ white.png);
+    background-repeat: no-repeat;
+}
+#Linkdeen{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    background-size: contain;
+    background-image: url(../images/Linkdeen.\ whitepng.png);
+    background-repeat: no-repeat;
+}
+
+#instagram{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    background-size: contain;
+    background-image: url(../images/Instagram\ white.png);
+    background-repeat: no-repeat;
+}
+
+#Email{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    background-size: contain;
+    background-image: url(../images/Email\ white.png);
+    background-repeat: no-repeat;
+}
+
+#footerRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+form{
+    width: 100%;
+}
+
+fieldset{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+#emailAddress{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    line-height: 48px; /* 150% */
+    letter-spacing: -0.5px;
+}
+
+.formStyle{
+    width: 45%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 16px;
+    opacity: 0.24;
+    background: var(--24-gray-soft, #e4e3e3);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 10px; 
+}
+
+#messageStyle{
+    width:580px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid var(--Purple-Dark, #2f2f2f);
+    opacity: 0.24;
+    background: var(--24-gray-soft, #C2C2C2);
+    /* color: var(--Purple-Dark, #6C5CE7);  */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 10px; 
+    letter-spacing: 0.2px;
+}
+
+#buttonStyle{
+    width: 80px;
+    height: 40px;
+    background-color: #4c4c4c;
+    color: var(--White, #FFF);
+    text-align: center;
+    text-shadow: 0px 4px 8px rgba(38, 50, 56, 0.08), 0px 2px 4px rgba(38, 50, 56, 0.16);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 36px; /* 150% */
+    letter-spacing: 0.25px;
+    border-radius: 16px;
+}
